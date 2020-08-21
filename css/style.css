@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+
+header{
+    padding: 10px 0px;
+}
+.wrapper{
+    width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 70%;
+    float: right;
+    margin-top: 10px;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 10px;
+    font-family: ;
+    font-weight: ;
+    color:black;
+}
+
+.menu ul li:last-child a{
+    padding: 0;
+}
+.menu ul li a:hover{
+    color:deeppink;
+}
+
+.cover {}
+
+.wrapper1 {
+    overflow: hidden;
+}
+
+.blog {
+    height: 350px;
+    width: 70%;
+    margin: 5px;
+    padding: 5px;
+    border: 2 px solid red;
+    background-color: green;
+    float: left;
+    overflow: scroll;
+    text-align: justify;
+}
+
+.news {
+    background-color: blue;
+    color: aliceblue;
+    min-height: 40px;
+}
+
+.content {
+    height: 350px;
+    width: 25%;
+    margin: 5px;
+    background-color: yellow;
+    float: right;
+    overflow: scroll;
+    text-align: justify;
+    border: red;
+
+}
+
+.image img {
+    margin: 5px;
+    float: left;
+    border: 2px solid red;
+}
+.image img:last-child{
+    margin-left: 0px;
+}
+.table {
+    text-align: center;
+    color: red;
+    width: 600px;
+    height: 250px;
+    margin: 5 auto;
+    background-color: #ffcc00
+}
+
+.content1 p {
+    background-color:azure;
+    text-align: justify;
+    margin: 1px;
+    min-height: 300px;
+    
+}
+
+.content2 {
+    width: 960px;
+    margin: 0 auto;
+}
+.content2 img{
+    width: 300px;
+    height: 180px;
+}
+.box{
+    width: 300px;
+    text-align: justify;
+    float: left;
+    margin-right: 30px;
+}
+.box h2{
+    color: orange;
+}
+.nomargin{
+    margin-right: 0;
+}
+.content2 a{
+    width: 300px;
+    height: 20px;
+    background-color: orange;
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    
+}
+.content2 a:hover{
+    color: wheat;
+    background-color: fuchsia;
+}
+
+
+.yt {
+        margin-top: 10px;
+    text-align :center;
+        
+    }
+.form{
+    width: 960px;
+    margin: 0 auto;
+}
+
+    .fotter {
+        min-height: 40px;
+        background-color: blue;
+        color: aliceblue;
+        text-align: center;
+
+    }
